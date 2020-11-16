@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driven Suite]">
+  <test thread-count="5" name="AddCustomer(failed)">
+    <classes>
+      <class name="com.hawk895.testcases.AddCustomer">
+        <methods>
+          <include name="setUp"/>
+          <include name="addCust" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hawk895.testcases.AddCustomer -->
+    </classes>
+  </test> <!-- AddCustomer(failed) -->
+</suite> <!-- Failed suite [Data Driven Suite] -->

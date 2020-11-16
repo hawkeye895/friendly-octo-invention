@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven Suite" duration-ms="4773" started-at="2020-11-16T10:10:25Z" finished-at="2020-11-16T10:10:30Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="1227" started-at="2020-11-16T10:10:25Z" finished-at="2020-11-16T10:10:26Z">
+      <class name="com.hawk895.testcases.LoginTest">
+        <test-method status="PASS" signature="LoginAsBm()[pri:0, instance:com.hawk895.testcases.LoginTest@4b553d26]" name="LoginAsBm" duration-ms="1164" started-at="2020-11-16T10:10:25Z" finished-at="2020-11-16T10:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAsBm -->
+      </class> <!-- com.hawk895.testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="AddCustomer" duration-ms="3435" started-at="2020-11-16T10:10:26Z" finished-at="2020-11-16T10:10:30Z">
+      <class name="com.hawk895.testcases.AddCustomer">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hawk895.testcases.AddCustomer@4abdb505]" name="setUp" is-config="true" duration-ms="11780" started-at="2020-11-16T10:10:13Z" finished-at="2020-11-16T10:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCust(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hawk895.testcases.AddCustomer@4abdb505]" name="addCust" duration-ms="1499" started-at="2020-11-16T10:10:26Z" data-provider="getData" finished-at="2020-11-16T10:10:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[41144]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+        <test-method status="PASS" signature="addCust(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hawk895.testcases.AddCustomer@4abdb505]" name="addCust" duration-ms="1167" started-at="2020-11-16T10:10:28Z" data-provider="getData" finished-at="2020-11-16T10:10:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramqa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ramqa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[85582]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+        <test-method status="PASS" signature="addCust(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hawk895.testcases.AddCustomer@4abdb505]" name="addCust" duration-ms="744" started-at="2020-11-16T10:10:29Z" data-provider="getData" finished-at="2020-11-16T10:10:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ramta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[96857]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hawk895.testcases.AddCustomer@4abdb505]" name="tearDown" is-config="true" duration-ms="941" started-at="2020-11-16T10:10:30Z" finished-at="2020-11-16T10:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hawk895.testcases.AddCustomer -->
+    </test> <!-- AddCustomer -->
+  </suite> <!-- Data Driven Suite -->
+</testng-results>

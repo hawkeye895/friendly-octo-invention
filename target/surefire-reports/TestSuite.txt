@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 613.964 sec <<< FAILURE! - in TestSuite
+setUp(com.hawk895.testcases.AddCustomer)  Time elapsed: 612.914 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=86.0.4240.193)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOGGDHJ', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00AEC013+3194899]
+	Ordinal0 [0x009D6021+2056225]
+	Ordinal0 [0x0086F608+587272]
+	Ordinal0 [0x008636EC+538348]
+	Ordinal0 [0x00862A6F+535151]
+	Ordinal0 [0x00862E45+536133]
+	Ordinal0 [0x008627A5+534437]
+	Ordinal0 [0x0086BBC9+572361]
+	Ordinal0 [0x00862754+534356]
+	Ordinal0 [0x00863475+537717]
+	Ordinal0 [0x00862A6F+535151]
+	Ordinal0 [0x00862E45+536133]
+	Ordinal0 [0x008627A5+534437]
+	Ordinal0 [0x00869EFE+564990]
+	Ordinal0 [0x00862754+534356]
+	Ordinal0 [0x00863475+537717]
+	Ordinal0 [0x00862A6F+535151]
+	Ordinal0 [0x00862E45+536133]
+	Ordinal0 [0x008627A5+534437]
+	Ordinal0 [0x00868186+557446]
+	Ordinal0 [0x00862754+534356]
+	Ordinal0 [0x00863475+537717]
+	Ordinal0 [0x00862A6F+535151]
+	Ordinal0 [0x00862E45+536133]
+	Ordinal0 [0x008627A5+534437]
+	Ordinal0 [0x008674A7+554151]
+	Ordinal0 [0x00862754+534356]
+	Ordinal0 [0x00863475+537717]
+	Ordinal0 [0x00862A6F+535151]
+	Ordinal0 [0x00862E45+536133]
+	Ordinal0 [0x008627A5+534437]
+	Ordinal0 [0x0085F06C+520300]
+	Ordinal0 [0x00862754+534356]
+	Ordinal0 [0x008625BF+533951]
+	Ordinal0 [0x008623D3+533459]
+	Ordinal0 [0x00870620+591392]
+	Ordinal0 [0x00812A0C+207372]
+	Ordinal0 [0x00811D0D+204045]
+	Ordinal0 [0x0080FC1B+195611]
+	Ordinal0 [0x007F3B7F+80767]
+	Ordinal0 [0x007F4B4E+84814]
+	Ordinal0 [0x007F4AD9+84697]
+	Ordinal0 [0x009ECE64+2149988]
+	GetHandleVerifier [0x00C5BE95+1400773]
+	GetHandleVerifier [0x00C5BB61+1399953]
+	GetHandleVerifier [0x00C631FA+1430314]
+	GetHandleVerifier [0x00C5C69F+1402831]
+	Ordinal0 [0x009E3D61+2112865]
+	Ordinal0 [0x009EE5CB+2155979]
+	Ordinal0 [0x009EE6F5+2156277]
+	Ordinal0 [0x009FF26E+2224750]
+	BaseThreadInitThunk [0x74FD6359+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47C24+228]
+	RtlGetAppContainerNamedObjectPath [0x76F47BF4+180]
+
+
